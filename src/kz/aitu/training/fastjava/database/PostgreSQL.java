@@ -10,7 +10,7 @@ public class PostgreSQL {
         String URL = "jdbc:postgresql://localhost:5432/simplyshopdb";
         try {
             Class.forName("org.postgresql.Driver"); // check to exist!
-            Connection connection = DriverManager.getConnection(URL, "postgres", "150903");
+            Connection connection = DriverManager.getConnection(URL, "postgres", "ahahah you are serius?)");
             return connection;
 
         } catch (ClassNotFoundException e) {
